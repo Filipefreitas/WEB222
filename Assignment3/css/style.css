@@ -1,0 +1,738 @@
+/************* BASIC CONFIG *************/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:black;
+    color: white;
+    line-height: 1.7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+h1
+{
+    margin-bottom: 32px;
+}
+
+h2,h3
+{
+    margin-bottom: 20px;
+}
+
+p
+{
+    margin-bottom: 16px;
+}
+
+img
+{
+    width:100%;
+    max-width:100%;
+}
+
+hr
+{
+    height: 1px;
+    border: 0;
+    color: #333;
+    background-color: #333;
+    width: 100%;
+}
+/************* END BASIC CONFIG *************/
+
+/************* GRIDS *************/
+.grid
+{
+    display: grid;
+}
+
+.grid-col-2
+{
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-col-2-2
+{
+    grid-template-columns: 1fr 2fr;
+}
+
+.grid-col-3
+{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-col-4
+{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/************* END GRIDS *************/
+
+
+/************* TOP NAVIGATION MENU *************/
+#topnav 
+{
+    background-color:black;
+    overflow: hidden;
+    align-items: center;
+}
+
+#topnav div
+{
+    height: 50px;
+}
+
+#topnav img
+{
+    width: 30%;
+}
+
+#topnav a 
+{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+#topnav a:hover 
+{
+    text-decoration: underline;
+    color: #00A8e1;
+}
+  
+#topnav li
+{
+    display: inline-block;
+    cursor: pointer;
+}
+/************* END TOP NAVIGATION MENU *************/
+
+
+/************* HERO SECTION *************/
+#hero-section
+{  
+    padding: 16px 32px;
+    background-image: url("../img/hero_reopening_desktop.webp");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    text-align: left;
+    width: 90wh;
+    height: 100%;
+    position: relative;
+}
+
+#hero-section 
+{
+    margin-left: 5%;
+} 
+
+#hero-section > div
+{
+    padding: 5% 5%;
+}
+
+#hero-section > div > h1 
+{
+    font-size: 50px;
+    max-width: 70%;
+    line-height: 1;
+}
+
+#hero-section > div > h3
+{
+    font-size: 10px;
+}
+
+#hero-section > div > p
+{
+    font-size: 20px;
+    max-width: 70%;
+}
+
+#hero-section > div > div > .btn
+{
+    bottom: 10%;
+    letter-spacing: -.04em;
+}
+
+#hero-btn2
+{
+    left: 250px;
+}
+
+.carousel-nav-control > ul 
+{
+    display: inline-block;
+}
+
+.arrow
+{
+    border: none;
+    color: white;
+    background-color: transparent;
+    width: 10px;
+    cursor: pointer;
+}
+/************* END HERO SECTION *************/
+
+/************* BUTTONS *************/
+.btn
+{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    padding:6px 30px;
+    border-radius: 3em;
+    max-height: 50px;
+    max-width: 200px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-primary
+{
+    background-color: #e51937;
+    border: 2px solid#e51937;
+    color:#ffffff;
+}
+
+.btn-secondary
+{
+    background-color: e51937;
+    border: 2px solid#d7d7d7;
+    color:#ffffff;
+}
+
+.btn-tertiary
+{
+    background-color: #C0C0C0;
+    border: 2px solid#C0C0C0;
+    color: black;
+}
+
+.btn-fourth 
+{
+    border: 2px solid#C0C0C0;
+    display: block;
+    font-weight: bold;
+}
+
+.btn-fifth 
+{
+    background-color: #eec018;
+    border: 2px solid#eec018;
+    color: black;
+    display: block;
+    font-weight: bold;
+}
+
+.no-border
+{
+    border: none;
+}
+
+.arrow
+{
+    outline:none;
+}
+
+.nav-circles i
+{
+    padding-left: 0.2em;
+}
+/************* END BUTTONS *************/
+
+
+/************* FIRST SECTION *************/
+#first-section-top-menu
+{
+    margin-top: 75px;
+    font-weight: bold;
+}
+
+#first-section-top-menu div
+{
+    border-bottom: 1px solid grey;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#first-section-top-menu ul
+{
+    text-align: right;
+}
+
+#first-section-top-menu li
+{
+    display: inline-block;
+    padding: 15px;
+}
+
+#first-section-top-menu h2
+{
+    text-align: left;
+    font-size: 32px;
+}
+
+#first-section-top-menu a
+{
+    text-decoration: none;
+    color: grey;
+}
+
+.iframe-container 
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.responsive-iframe 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#first-section-top-menu a:hover 
+{
+    text-decoration: underline;
+    color: white;
+}
+
+#first-section-content 
+{
+    padding: 2%;    
+}
+
+#first-section-content div div a, div div h2 
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#first-section-content a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#first-section-content h2
+{
+    max-width: 50%;
+}
+
+/************* END FIRST SECTION *************/
+
+
+/************* MAIN SECTION *************/
+#main-section
+{
+    margin-left: 5%;
+    background-image: url("../img/main-background-image.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+#main-section div
+{
+    padding: 2%;
+}
+
+#main-section div 
+{
+    display: inline-block;
+}
+
+#main-section img
+{    
+    width: 60%;
+    max-width: 60%;
+    overflow: hidden;
+}
+
+.main-section-text
+{    
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 30%;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.main-bottom-links
+{
+    margin: 30px;
+    font-weight: bold;
+}
+
+.main-bottom-links a 
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #f2f2f2;
+}
+  
+.main-bottom-links a:hover
+{
+    color: #00A8e1
+}
+
+.movie-details
+{
+    text-align: left;
+    margin-left: 5%;
+    line-height: normal;
+}
+
+.movie-details p
+{
+    margin: 0px;
+    font-size: 14px;
+    color: grey;
+}
+
+.movie-details div 
+{
+    margin-bottom: 20px;
+}
+
+.movie-details img
+{
+    width: 75%;
+}
+
+.movie-details a
+{
+    text-decoration: none;
+}
+
+.movie-preview 
+{
+    align-self: center;
+}
+
+.movie-preview iframe
+{
+    width: 90%;
+    margin: 20px 0px;
+}
+
+.movie-preview-full iframe
+{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.movie-preview-full-no-margin iframe 
+{
+    width: 100%;
+    margin: 0px 0px;
+}
+
+.movie-description
+{
+    margin: 20px 0px;
+    max-width: 90%;
+}
+/************* END MAIN SECTION *************/
+
+/************* FOOTER  *************/
+.container-social-media
+{
+    margin: 40px;
+}
+
+.social-media-logos
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-wrapper 
+{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.icon-wrapper i 
+{
+    align-items: center;
+    color: white;
+}
+
+.container-footer-menu 
+{
+    background-color: #171717;
+    text-align: left;
+}
+
+.container-footer-menu div
+{
+    padding: 60px 0px 100px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-footer-menu a
+{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #f2f2f2;
+}
+
+.container-footer-menu a:hover
+{
+    color: #00A8e1
+}
+
+.container-logos img
+{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.footer-logos
+{    
+    display: flex;
+    background-color: #171717;
+} 
+
+.footer-logos div
+{
+    margin: auto;
+    width: 100%;
+    font-size: 14px;
+}
+/************* END FOOTER  *************/
+
+/*************** MODAL***************/
+.modal
+{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);    
+    height:100vh;
+    width:100%;
+    align-items: center; 
+    z-index:1;
+    background-color: rgba(20, 20, 20, 0.8);
+    grid-template-columns: 1f;
+    bottom: 0px;
+}   
+
+.modal-container
+{
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width:80%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: #151515;
+    align-items: center; 
+}
+
+.modal-movie-banner > img
+{
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+.modal-container .close-modal
+{
+    position: absolute; 
+    right: 0;
+    width: 28px;
+    height: 28px;
+    border: 0;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: background .2s;
+}
+
+.show
+{
+    display:block;
+}
+
+.hide
+{
+    display:none;
+}
+
+
+/************* MEDIA QUERIES  *************/
+/*Small devices*/
+@media (max-width: 576px)
+{    
+    /*** BASIC CONFIG ***/
+    body
+    {
+        display: block;
+        width: auto;
+        height: 100%;
+    }
+
+    h1
+    {
+        margin-bottom: 16px;
+        font-size: 18px;
+    }
+    
+    h2,h3
+    {
+        margin-bottom: 12px;
+    }
+    
+    p
+    {
+        margin-bottom: 8px;
+        font-size: 12px;
+        padding-top:10%;
+    }
+
+    h2
+    {
+        font-size: 16px;
+    }
+
+
+    h4
+    {
+        font-size: 12px;
+    }
+
+    .btn
+    {
+        font-size: 12px;
+    }
+
+    /*** TOPNAV  ***/
+    #topnav li
+    {
+        display: block;
+    }
+
+    #topnav div
+    {
+        height: auto;
+    }
+    /*** END TOPNAV  ***/
+
+
+    /*** HERO SECTION ***/
+    #hero-section
+    {  
+        background-image: url("../img/hero_reopening_mobile.webp");
+        padding: 0px;
+        margin: 0px;
+    }
+    /*** END HERO SECTION ***/
+
+
+    /*** FRIST SECTION ***/
+    #first-section-top-menu div
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*** END FRIST SECTION ***/
+
+    /*** MAIN SECTION ***/
+    .main-section-container 
+    {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;     
+    }
+
+    #main-section p
+    {
+        padding: 0;
+    }
+
+    #main-section img
+    {    
+        position: relative;        
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1%;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        top: 0;
+    }
+
+    .main-section-text
+    {
+        display: block;
+        flex-direction: column;
+        position: relative;
+        height: auto;
+        width: 100%;
+        left: 0;
+    }
+    /*** END MAIN SECTION ***/
+
+    /*** FOOTER MENU ***/
+    .container-footer-menu
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .container-footer-menu div
+    {
+        padding: 0px 0px 20px 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        
+    .footer-menu a
+    {
+        font-size: 12px;
+    }
+
+    .footer-menu h2
+    {
+        margin: 0px;
+    }   
+    /*** END FOOTER MENU ***/
+}
+/************* END MEDIA QUERIES  *************/
